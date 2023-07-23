@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/reviewdog")
 class DemoController {
 
+    /*
+      * This comment is not formatted well.
+    */
     @GetMapping("/get")
     fun get(): String {
         return "Hello"
